@@ -70,12 +70,15 @@ main {
 
 .pagina {
   background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cards {
   width: 300px;
   height: 350px;
   background-color: #ff0000;
-
-  display: flex;
+  border-radius: 15px;
+  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
