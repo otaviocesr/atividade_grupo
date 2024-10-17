@@ -36,3 +36,49 @@ ul {
   flex-direction: row;
   display: flex;
 }
+
+.rodape {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.rodape nav ul {
+  flex-direction: column;
+}
+
+footer nav ul li a {
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: cursive;
+}
+
+h3 {
+  color: lightblue;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: white;
+}
+
+.pagina {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cards {
+  width: 300px;
+  height: 350px;
+  background-color: #ff0000;
+  border-radius: 15px;
+  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
